@@ -1,0 +1,8 @@
+
+venv/Lib/site-packages/_distutils_hack/__init__.py
+*.pyc
+venv/Lib/site-packages/_distutils_hack/override.py
+*.txt
+venv/Lib/site-packages/pip-22.0.4.dist-info/INSTALLER
+venv/Lib/site-packages/pip-22.0.4.dist-info/RECORD
+venv/
