@@ -6,3 +6,4 @@ venv/Lib/site-packages/_distutils_hack/override.py
 venv/Lib/site-packages/pip-22.0.4.dist-info/INSTALLER
 venv/Lib/site-packages/pip-22.0.4.dist-info/RECORD
 venv/
+.idea/
