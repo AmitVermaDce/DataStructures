@@ -1,6 +1,5 @@
 from array import array
 import math
-from xml.dom.minidom import Element
 
 arr = [3, 6, 8, 12, 14, 17, 25, 29, 31, 36, 42, 47, 53, 55, 62]
 
