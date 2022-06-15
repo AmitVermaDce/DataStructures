@@ -1,0 +1,36 @@
+from collections import deque
+
+de = deque([1, 2, 3, 4, 5, 6])
+de.append(7)
+print(de)
+de.appendleft(0)
+print(de)
+de.pop()
+print(de)
+de.popleft()
+print(de)
+de[0] = 100
+print(de)
+de.extend([7, 8, 9])
+print(de)
+de.extendleft([0, -1, -2])
+print(de)
+de.insert(2, [2.2, 2.3])
+print(de)
+print(de.rotate(3))
+print(de)
+de.reverse()
+print(de)
+de.clear()
+print(de)
+
+dq = deque([], 5)
+dq.extend([1, 2, 3, 4, 5])
+print(dq)
+dq.append(6)
+print(dq)
+dq.append(7)
+print(dq)
+print("Length of Deque:", dq.maxlen)
+
+# Deque is faster than list and they are thread safe. It gives constant time performance

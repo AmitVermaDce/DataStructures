@@ -5,7 +5,7 @@ class IDepartment(metaclass=ABCMeta):
 
     @abstractmethod
     def __init__(self, employee):
-        print("Implement in Child class")
+        print("Implement in Child claass")
 
     @abstractstaticmethod
     def p_department():
